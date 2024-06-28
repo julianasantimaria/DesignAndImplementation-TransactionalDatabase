@@ -1,0 +1,21 @@
+CREATE TABLE INVOICE_DETAILS (
+    INC_id INT PRIMARY KEY,
+    income_status CHAR(1),
+    REC_conf_status CHAR(1),
+    REC_cod INT,
+    REC_client_name VARCHAR(100),
+    REC_social_name VARCHAR(100),
+    invoice_value DECIMAL(10, 2),
+    invoice_category_value DECIMAL(10, 2),
+    due_date DATE,
+    value_date DATE,
+    isPaid CHAR(1),
+    account_id INT,
+    collaborator_id INT,
+    product_id INT,
+    income_category_id INT,
+    income_category_name VARCHAR(100),
+    service_id INT,
+    service_description VARCHAR(255),
+    FOREIGN KEY (account_id) REFERENCES ACCOUNT(account_id)
+);

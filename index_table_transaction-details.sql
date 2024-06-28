@@ -1,0 +1,1 @@
+CREATE INDEX idx_transaction_details_trans_id ON TRANSACTION_DETAILS (trans_id);

@@ -1,0 +1,20 @@
+CREATE TABLE CUSTOMERS (
+    REC_cod INT PRIMARY KEY,
+    REC_client_name VARCHAR(100),
+    REC_social_name VARCHAR(100),
+    REC_status CHAR(1),
+    REC_client_contact VARCHAR(100),
+    account_id INT,
+    isVIP CHAR(1),
+    OCC_center_cod INT,
+    OCC_center_status CHAR(1),
+    OCC_center_contact VARCHAR(100),
+    OCC_center_address VARCHAR(255),
+    account_open_dt DATE,
+    account_payment_id INT,
+    account_payment_status CHAR(1),
+    account_status CHAR(1),
+    invoice_category_value DECIMAL(10, 2),
+    total_value DECIMAL(10, 2),
+    FOREIGN KEY (account_id) REFERENCES ACCOUNT(account_id)
+);
