@@ -1,4 +1,4 @@
-# Project IFRS- DataBase - Conclusion
+# Project DataBase - Conclusion (Federal Institute of Rio Grande do Sul - IFRS)
 
 This project is an implementation of a Transactional database. The Database project is developed together with the development and implementation of an application (in this case a CRM was considered).
 
@@ -18,9 +18,9 @@ This project is focused:
 
 The project is structured as follows:
 
-1. **`Titanic.ipynb`**: Jupyter Notebook contendo o código principal da análise.
-2. **`datasets/`**: Diretório que contém o conjunto de dados do Titanic (`train.csv`).
-3. **`output/`**: Diretório que armazena saídas e resultados da análise.
+1. **`documents`**: Database implementation, architecture and analysis. All phases of database implementation - Conceptual, Logical and Physical.
+2. **`tables`**: SQL construction of all tables - physical model.
+3. **`index`**: SQL construction of all indices and constraints - physical model.
 
 ## Requisites
 
