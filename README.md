@@ -14,6 +14,15 @@ This project is focused:
 - Storage of data in real time and consumption of the application in real time (Storage and visualization of data);
 - Understanding business rules for better data storage;
 
+## Architecture Overview
+
+ <img width="2500px" align="right"  src="https://github.com/julianasantimaria/ProjectBD-Conclusion_IFRS/blob/HTML/documents/_ERD-ProjectIFRS-Transactional.drawio.png">
+
+ <br/>
+ <br/>
+
+- [Architeture - Transactional Database](https://github.com/julianasantimaria/ProjectBD-Conclusion_IFRS/blob/HTML/documents/_ERD-ProjectIFRS-Transactional.drawio.png)
+
 ## Project Structure
 
 The project is structured as follows:
