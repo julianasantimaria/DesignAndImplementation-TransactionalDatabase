@@ -24,8 +24,9 @@ The project is structured as follows:
 
 ## Requisites
 
-Certifique-se de ter Python, Jupyter Notebook, Pandas e NumPy instalados em seu ambiente. Você pode instalar as dependências executando:
+Make sure you have a code generator for creating the physical SQL model and a document reader and writer.
 
 ```bash
 - drawio
-- 
+- VSCode
+- Word
